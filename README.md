@@ -49,9 +49,14 @@ AI Resume Analyzer Pro is a JavaScript-based ATS (Applicant Tracking System) Res
 
 ## Project Screenshots
 
-(Screenshots will be added soon)
+### Home Screen
+![Home Screen](home-screen.png)
 
----
+### Resume Upload
+![Resume Upload](resume-uploaded.png)
+
+### ATS Analysis Result
+![ATS Analysis](analysis-result.png)
 
 ## Author
 

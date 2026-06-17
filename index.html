@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Resume Analyzer Pro - Resume Comparison</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🚀 AI Resume Analyzer Pro</h1>
+
+        <p>
+            Compare two resumes against the same Job Description
+        </p>
+
+        <h3>📄 Resume 1</h3>
+
+        <input
+            type="file"
+            id="resume1"
+            accept=".pdf">
+
+        <br><br>
+
+        <h3>📄 Resume 2</h3>
+
+        <input
+            type="file"
+            id="resume2"
+            accept=".pdf">
+
+        <br><br>
+
+        <textarea
+            id="jobDescription"
+            placeholder="Paste Job Description Here..."
+            rows="10"></textarea>
+
+        <br><br>
+
+        <button onclick="analyzeResume()">
+            Compare Resumes
+        </button>
+
+        <br><br>
+
+        <button onclick="downloadReport()">
+            📄 Download ATS Report
+        </button>
+
+        <br><br>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="keywords.js"></script>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
